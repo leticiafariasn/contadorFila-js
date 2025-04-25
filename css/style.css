@@ -1,0 +1,61 @@
+/* Deixa o fundo escuro e o texto claro */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card central */
+.card {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Título */
+.card h1 {
+    margin-bottom: 1rem;
+}
+
+/* Área do input e botão */
+.contador {
+    margin-bottom: 1.5rem;
+}
+
+/* Input da senha */
+.contador input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+/* Botão */
+.contador button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Efeito no botão */
+.contador button:hover {
+    background-color: #45a049;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
